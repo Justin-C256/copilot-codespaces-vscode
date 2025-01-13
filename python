@@ -1,0 +1,21 @@
+import pygame
+import time
+import sys
+import math
+from math import pi
+import random
+
+
+#Landscape of a city
+#Proceedural generation of windows like in window.py
+#Classes may be helpful (enables movement).
+#Buildings have random heights/dimensions, colors
+#Windows may be lit or unlit. 
+#Moving cars/rain? (Requires classes)
+#Photo of movement method on phone
+
+
+pygame.init()
+screen = pygame.display.set_mode((1920,1080))
+black = (0,0,0) # Might be change
+screen.fill(black)
